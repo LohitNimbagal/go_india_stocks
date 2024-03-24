@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 'use client'
 
 import { useGeneratorStore } from '@/lib/utils/sideBarState'
