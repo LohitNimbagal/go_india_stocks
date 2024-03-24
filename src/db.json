@@ -1,128 +1,28 @@
 {
   "discussions": [
     {
-      "user": {
-        "username": "User1",
-        "sector": 123,
-        "posts": [
-          {
-            "post_date": "2024-03-24",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus magna in justo convallis, id rhoncus nibh mattis."
-          }
-        ],
-        "likes": 15,
-        "views": 100,
-        "comments": [
-          {
-            "comment_date": "2024-03-24",
-            "content": "Nulla facilisi. Sed ornare metus quis leo convallis, vel placerat orci dapibus. In hac habitasse platea dictumst."
-          },
-          {
-            "comment_date": "2024-03-25",
-            "content": "Vivamus molestie metus vitae elit luctus, vel volutpat orci eleifend. Mauris rutrum purus at felis ultrices, non eleifend justo posuere."
-          }
-        ]
-      }
+      "username": "JohnSmith22",
+      "sector": 789,
+      "post_date": "2024-03-26",
+      "content": "Ut sit amet orci sollicitudin, feugiat neque id, eleifend tellus. Vivamus malesuada ex eu sapien aliquet, vitae varius neque tempor.",
+      "likes": 12,
+      "views": 90
     },
     {
-      "user": {
-        "username": "User2",
-        "sector": 456,
-        "posts": [
-          {
-            "post_date": "2024-03-25",
-            "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce vitae sapien sit amet tortor molestie rutrum. Proin posuere sapien nec elit fermentum venenatis."
-          }
-        ],
-        "likes": 20,
-        "views": 150,
-        "comments": [
-          {
-            "comment_date": "2024-03-26",
-            "content": "Curabitur eu elit sed felis scelerisque consectetur vel at leo. Vestibulum nec odio vel lorem fermentum maximus sit amet et metus."
-          }
-        ]
-      }
+      "username": "EmilyArtistic",
+      "sector": 234,
+      "post_date": "2024-03-27",
+      "content": "Fusce auctor sapien et leo sodales, vitae viverra felis aliquam. Nulla non nulla ac odio condimentum aliquet sed in orci.",
+      "likes": 25,
+      "views": 150
     },
     {
-      "user": {
-        "username": "User3",
-        "sector": 789,
-        "posts": [
-          {
-            "post_date": "2024-03-26",
-            "content": "Maecenas ut leo non enim consectetur iaculis. Nulla facilisi. Nam elementum diam sit amet felis fringilla, sed gravida risus efficitur."
-          }
-        ],
-        "likes": 25,
-        "views": 120,
-        "comments": [
-          {
-            "comment_date": "2024-03-27",
-            "content": "Suspendisse vitae ipsum vestibulum, convallis eros at, vehicula turpis. Nulla a velit at nisl fermentum posuere."
-          }
-        ]
-      }
-    },
-    {
-      "user": {
-        "username": "User4",
-        "sector": 321,
-        "posts": [
-          {
-            "post_date": "2024-03-27",
-            "content": "Cras eget lorem consectetur, varius sem at, convallis mauris. Sed vel massa a velit bibendum blandit vel in metus."
-          }
-        ],
-        "likes": 18,
-        "views": 130,
-        "comments": [
-          {
-            "comment_date": "2024-03-28",
-            "content": "Vivamus sed ex non ante mattis tincidunt. Duis sed mauris rutrum, lacinia elit a, lobortis sapien."
-          }
-        ]
-      }
-    },
-    {
-      "user": {
-        "username": "User5",
-        "sector": 654,
-        "posts": [
-          {
-            "post_date": "2024-03-28",
-            "content": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed sodales aliquam fringilla. Integer fringilla eros vel dolor faucibus, sit amet venenatis turpis efficitur."
-          }
-        ],
-        "likes": 22,
-        "views": 140,
-        "comments": [
-          {
-            "comment_date": "2024-03-29",
-            "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi mattis placerat varius. Sed semper sit amet nisi nec vulputate."
-          }
-        ]
-      }
-    },
-    {
-      "user": {
-        "username": "User6",
-        "sector": 987,
-        "posts": [
-          {
-            "post_date": "2024-03-29",
-            "content": "Nunc fermentum dolor nec lacus aliquet, sed dictum lacus dignissim. Proin eget arcu consectetur, dapibus orci a, rhoncus ex."
-          }
-        ],
-        "likes": 30,
-        "views": 110,
-        "comments": [
-          {
-            "comment_date": "2024-03-30",
-            "content": "Sed convallis ipsum eget lorem lacinia dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
-          }
-        ]
-      }
+      "username": "TechGuru99",
+      "sector": 567,
+      "post_date": "2024-03-28",
+      "content": "Phasellus vestibulum odio eget nibh congue, vel venenatis turpis hendrerit. Nam sed ligula at nisi euismod aliquam id quis odio.",
+      "likes": 18,
+      "views": 110
     }
   ],
   "marketstories": [
