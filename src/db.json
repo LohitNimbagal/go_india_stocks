@@ -27,22 +27,22 @@
   ],
   "marketstories": [
     {
-      "title": "Tech Stocks Surge as Earnings Beat Expectations",
+      "title": "Tech Stocks Surge",
       "description": "Major tech companies report stellar earnings, driving market indices to new highs.",
       "image_link": "https://example.com/tech_stocks_image.jpg"
     },
     {
-      "title": "Cryptocurrency Market Sees Record Trading Volume",
+      "title": "Cryptocurrency Market",
       "description": "Bitcoin, Ethereum, and other cryptocurrencies experience a surge in trading activity amid market volatility.",
       "image_link": "https://example.com/crypto_trading_image.jpg"
     },
     {
-      "title": "Consumer Spending Boosts Retail Sector",
+      "title": "Consumer Spending",
       "description": "Strong consumer spending during the holiday season leads to a jump in retail stocks.",
       "image_link": "https://example.com/retail_spending_image.jpg"
     },
     {
-      "title": "Oil Prices Soar Amid Supply Concerns",
+      "title": "Oil Prices Soar",
       "description": "Global oil prices spike as geopolitical tensions threaten oil supply chains.",
       "image_link": "https://example.com/oil_prices_image.jpg"
     }
