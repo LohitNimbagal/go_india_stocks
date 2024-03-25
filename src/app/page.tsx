@@ -28,7 +28,7 @@ export default function Home() {
         <div className="w-full flex justify-around bg-blue-900">
 
           { navItems.map((item) => (
-            <button id={item} onClick={(e) => handelNav(e.currentTarget.id)} className={`w-6/12 p-3 ${isActive === item ? "border-b-4 bg-blue-800 border-red-600" : ""}`}>{item}</button>
+            <button id={item} key={item} onClick={(e) => handelNav(e.currentTarget.id)} className={`w-6/12 p-3 ${isActive === item ? "border-b-4 bg-blue-800 border-red-600" : ""}`}>{item}</button>
           ))}
         </div>
 
