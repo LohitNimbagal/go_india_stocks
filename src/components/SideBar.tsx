@@ -25,9 +25,9 @@ export const SideBar = () => {
     const { isOpen } = useGeneratorStore()
 
     return (
-        <div className={`bg-[#1E375F] min-h-screen min-w-60 lg:w-80 ${isOpen ? "fixed overscroll-none" : "relative"}`}>
+        <div className={`bg-[#1E375F] min-h-screen min-w-60 lg:w-80 ${isOpen ? "absolute" : "relative"}`}>
 
-            <div className='sticky top-0'>
+            <div className={!isOpen && 'sticky top-0'}>
                 <section className='p-5 border-b-2 border-[#364F72] flex items-center justify-between'>
                     <div className='flex items-center gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(255,255,255,1)" width="30px" height="30px" >
