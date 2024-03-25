@@ -6,6 +6,6 @@ interface SideBarState {
 }
 
 export const useGeneratorStore = create<SideBarState>()((set) => ({
-    isOpen: false,
+    isOpen: true,
     setIsOpen: (isOpen: boolean) => set({isOpen})
 }))
