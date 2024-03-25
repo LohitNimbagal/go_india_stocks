@@ -30,16 +30,17 @@ const discussions = [
 
 export const Discussions = () => {
     return (
-        <div className='w-3/4 p-3'>
-            <h2 className='text-red-400 text-xl uppercase font-bold'>Discussion Fourm</h2>
+        <div className='w-full lg:w-3/4 p-3'>
+            <h2 className='text-red-400 text-xl uppercase font-bold hidden lg:block'>Discussion Fourm</h2>
 
-            <section className='p-2 space-y-5'>
+            <section className='space-y-2 flex flex-col items-center lg:w-full lg:p-2'>
                 {discussions.map((item) => (
-                    <div className='w-full rounded-lg border text-[#828282] bg-white text-card-foreground shadow-xl' key={item.username}>
-                        <div className='w-full flex items-center justify-between space-y-1.5 p-6'>
+                    <div className='w-11/12 lg:w-full rounded-lg border text-[#828282] bg-white shadow-xl' key={item.username}>
+
+                        <div className='w-full flex items-center justify-between p-2 lg:p-6'>
                             <div className='space-x-5 flex items-center'>
                                 <div className='rounded-full p-2 bg-orange-500'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="3 0px" height="30px"><path d="M20 22H4V20C4 17.2386 6.23858 15 9 15H15C17.7614 15 20 17.2386 20 20V22ZM12 13C8.68629 13 6 10.3137 6 7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7C18 10.3137 15.3137 13 12 13Z"></path></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="30px" height="30px"><path d="M20 22H4V20C4 17.2386 6.23858 15 9 15H15C17.7614 15 20 17.2386 20 20V22ZM12 13C8.68629 13 6 10.3137 6 7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7C18 10.3137 15.3137 13 12 13Z"></path></svg>
                                 </div>
 
                                 <h5 className='text-[#828282] font-semibold'>{item.username}</h5>
@@ -48,11 +49,11 @@ export const Discussions = () => {
                             <p className='text-blue-700 text-xs'>{item.post_date}</p>
                         </div>
 
-                        <div className='text-[#828282] px-24 p-6 pt-0'>
+                        <div className='text-[#828282] text-sm px-16 lg:px-24 p-1 lg:p-6'>
                             <p>{item.content}</p>
                         </div>
 
-                        <div className='w-full flex items-center justify-start gap-20 p-6 pt-0 px-24 text-black'>
+                        <div className='w-full flex items-center justify-center lg:justify-start gap-5 p-6 lg:px-24 text-black'>
                             <div className='flex items-center gap-2 text-sm'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20px" height="20px"><path d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"></path></svg>
                                 {item.likes}

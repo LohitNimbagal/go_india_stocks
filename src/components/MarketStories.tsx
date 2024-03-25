@@ -25,7 +25,7 @@ const marketstories = [
 export const MarketStories = () => {
     return (
         <section className='flex-1 p-3'>
-            <h2 className='text-red-400 text-lg uppercase font-bold'>Market Stories</h2>
+            <h2 className='text-red-400 text-lg uppercase font-bold hidden lg:block'>Market Stories</h2>
 
             <ul className='p-2 space-y-3'>
                 {marketstories.map((item) => (
@@ -38,9 +38,9 @@ export const MarketStories = () => {
                         />
 
                         <div className='p-2'>
-                            <h6 className='text-[#89909C] text-sm'>{item.title}</h6>
+                            <h6 className='text-[#89909C] text-sm font-bold'>{item.title}</h6>
 
-                            <p className='text-xs text-[#AAAFB4]'>{item.description}</p>
+                            <p className='text-xs text-[#AAAFB4] leading-5'>{item.description}</p>
                         </div>
                     </li>
                 ))}
